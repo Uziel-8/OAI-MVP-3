@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=3 uid="uid://dnujfl5ove53g"]
 
-[ext_resource type="Texture2D" uid="uid://b44w14ydx6jan" path="res://Graphics/Items/Chest/chest_full_open_anim_f0.png" id="1_1q88o"]
-[ext_resource type="Script" uid="uid://cljdciw238dmg" path="res://Objects/chest.gd" id="1_ywki3"]
-[ext_resource type="Texture2D" uid="uid://c17v0kpkispor" path="res://Graphics/Items/Chest/chest_full_open_anim_f1.png" id="2_1si0c"]
-[ext_resource type="Texture2D" uid="uid://ck4tabgta7t6k" path="res://Graphics/Items/Chest/chest_full_open_anim_f2.png" id="3_2v5am"]
+[ext_resource type="Texture2D" uid="uid://c5aabjwj3e81v" path="res://Graphics/Items/Chest/chest_full_open_anim_f0.png" id="1_1q88o"]
+[ext_resource type="Script" uid="uid://bwehadtc3oakf" path="res://Objects/chest.gd" id="1_ywki3"]
+[ext_resource type="Texture2D" uid="uid://bxqdtejh167m7" path="res://Graphics/Items/Chest/chest_full_open_anim_f1.png" id="2_1si0c"]
+[ext_resource type="Texture2D" uid="uid://d1k70j6yt7ous" path="res://Graphics/Items/Chest/chest_full_open_anim_f2.png" id="3_2v5am"]
 [ext_resource type="PackedScene" uid="uid://dms6wp1gsqbhu" path="res://UI/selection_menu.tscn" id="5_musk5"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_mjfb1"]

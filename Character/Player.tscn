@@ -1,9 +1,9 @@
 [gd_scene load_steps=23 format=3 uid="uid://bcoapy6d45egg"]
 
 [ext_resource type="Script" uid="uid://medoh6lnwo0c" path="res://Objects/player.gd" id="1_b2i6w"]
-[ext_resource type="Texture2D" uid="uid://bm2rr5fodbs0s" path="res://Graphics/Tilemaps/Everything Tilemap.png" id="2_dvofn"]
+[ext_resource type="Texture2D" path="res://Graphics/Tilemaps/Everything Tilemap.png" id="2_dvofn"]
 [ext_resource type="Script" uid="uid://dumu5wvis5tvo" path="res://Character/Area2D.gd" id="3_7n4gl"]
-[ext_resource type="Texture2D" uid="uid://g3qhp3u5m2af" path="res://Graphics/Weapons/weapon_regular_sword.png" id="3_cacb7"]
+[ext_resource type="Texture2D" uid="uid://31l2bcfg3rev" path="res://Graphics/Weapons/weapon_regular_sword.png" id="3_cacb7"]
 [ext_resource type="PackedScene" uid="uid://m1tsi03dyi4n" path="res://UI/inventory.tscn" id="5_mm0nn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0sph4"]

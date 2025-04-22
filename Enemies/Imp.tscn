@@ -1,10 +1,10 @@
 [gd_scene load_steps=9 format=3 uid="uid://c7i1k771y3ein"]
 
 [ext_resource type="Script" uid="uid://bpwoljxaugh5r" path="res://Enemies/imp.gd" id="1_72de0"]
-[ext_resource type="Texture2D" uid="uid://bgucfh1yesp3f" path="res://Graphics/Enemies/Imp/imp_idle_anim_f0.png" id="2_4kbg1"]
-[ext_resource type="Texture2D" uid="uid://dxv0twgpg08k5" path="res://Graphics/Enemies/Imp/imp_idle_anim_f1.png" id="3_f0dat"]
-[ext_resource type="Texture2D" uid="uid://ccvpt7x2cmofh" path="res://Graphics/Enemies/Imp/imp_idle_anim_f2.png" id="4_qlwsy"]
-[ext_resource type="Texture2D" uid="uid://ity0b7bg8hg0" path="res://Graphics/Enemies/Imp/imp_idle_anim_f3.png" id="5_ua4xr"]
+[ext_resource type="Texture2D" uid="uid://vxn3ta3qapdg" path="res://Graphics/Enemies/Imp/imp_idle_anim_f0.png" id="2_4kbg1"]
+[ext_resource type="Texture2D" uid="uid://doj4l1hbph80w" path="res://Graphics/Enemies/Imp/imp_idle_anim_f1.png" id="3_f0dat"]
+[ext_resource type="Texture2D" uid="uid://cybg8nk3pfwvu" path="res://Graphics/Enemies/Imp/imp_idle_anim_f2.png" id="4_qlwsy"]
+[ext_resource type="Texture2D" uid="uid://btej1tg5612nb" path="res://Graphics/Enemies/Imp/imp_idle_anim_f3.png" id="5_ua4xr"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_t4cgm"]
 animations = [{

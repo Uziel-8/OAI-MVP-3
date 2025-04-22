@@ -1,11 +1,11 @@
 [gd_scene load_steps=8 format=3 uid="uid://4pwlmhcj7wfo"]
 
 [ext_resource type="Script" uid="uid://x3e8sm3umcep" path="res://Character/player_2.gd" id="1_fykds"]
-[ext_resource type="Texture2D" uid="uid://ybibhgptwnjo" path="res://Graphics/Character-Equipment/Soldier Head.png" id="1_ioa4b"]
-[ext_resource type="Texture2D" uid="uid://dxglqgqaugtf1" path="res://Graphics/Character-Equipment/Soldier Body.png" id="2_fykds"]
+[ext_resource type="Texture2D" path="res://Graphics/Character-Equipment/Soldier Head.png" id="1_ioa4b"]
+[ext_resource type="Texture2D" path="res://Graphics/Character-Equipment/Soldier Body.png" id="2_fykds"]
 [ext_resource type="PackedScene" uid="uid://npkf1mlk60qn" path="res://Character/Equipment/helmet.tscn" id="2_nx22q"]
-[ext_resource type="Texture2D" uid="uid://bpt7xbyycxrgx" path="res://Graphics/Character-Equipment/Soldier Arms.png" id="3_nx22q"]
-[ext_resource type="Texture2D" uid="uid://dikosh4tl6is4" path="res://Graphics/Character-Equipment/Soldier Legs.png" id="4_d3cof"]
+[ext_resource type="Texture2D" path="res://Graphics/Character-Equipment/Soldier Arms.png" id="3_nx22q"]
+[ext_resource type="Texture2D" path="res://Graphics/Character-Equipment/Soldier Legs.png" id="4_d3cof"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j2bs0"]
 size = Vector2(9, 15)

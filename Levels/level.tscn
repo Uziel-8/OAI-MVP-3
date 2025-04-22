@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cd04eub2t0yqh" path="res://Levels/level.gd" id="1_gdp34"]
 [ext_resource type="PackedScene" uid="uid://bcoapy6d45egg" path="res://Character/Player.tscn" id="2_f6p6p"]
-[ext_resource type="Texture2D" uid="uid://vhq1760xu2fb" path="res://Graphics/Tilemaps/Dungeon Tiles.png" id="2_t2u7g"]
+[ext_resource type="Texture2D" path="res://Graphics/Tilemaps/Dungeon Tiles.png" id="2_t2u7g"]
 [ext_resource type="PackedScene" uid="uid://tgpfatydmco1" path="res://Objects/Coin.tscn" id="3_u67hy"]
 [ext_resource type="PackedScene" uid="uid://cj8alx1tdbqc2" path="res://Objects/killzone.tscn" id="5_tkw1c"]
 [ext_resource type="PackedScene" uid="uid://c7i1k771y3ein" path="res://Enemies/Imp.tscn" id="6_tjevr"]

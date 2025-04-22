@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://m1tsi03dyi4n"]
 
-[ext_resource type="Texture2D" uid="uid://bnhjv8nq2fygd" path="res://Graphics/UI/Gold Button.png" id="1_qjobe"]
-[ext_resource type="Texture2D" uid="uid://bvs0h7hi2wjd2" path="res://Graphics/UI/Red Button.png" id="2_6dd4w"]
-[ext_resource type="Texture2D" uid="uid://fkkcgvwynoc3" path="res://Graphics/UI/Blue Button.png" id="3_qumus"]
+[ext_resource type="Texture2D" uid="uid://clr12f42j6exr" path="res://Graphics/UI/Gold Button.png" id="1_qjobe"]
+[ext_resource type="Texture2D" uid="uid://cqhnfmm4i3o6v" path="res://Graphics/UI/Red Button.png" id="2_6dd4w"]
+[ext_resource type="Texture2D" uid="uid://jgs2vl3ewkpi" path="res://Graphics/UI/Blue Button.png" id="3_qumus"]
 
 [node name="Inventory" type="PanelContainer"]
 anchors_preset = 15
