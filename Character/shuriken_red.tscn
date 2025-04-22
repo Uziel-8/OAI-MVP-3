@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bedi0cv8w3evl"]
+
+[ext_resource type="Texture2D" uid="uid://cufv85280lwvj" path="res://Graphics/Weapons/Shuriken.png" id="1_qb5qr"]
+[ext_resource type="Script" uid="uid://dr3die8b8ayou" path="res://Character/shuriken_red.gd" id="1_qlsgm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r5e18"]
+radius = 4.00125
+
+[node name="ShurikenRed" type="RigidBody2D"]
+script = ExtResource("1_qlsgm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(10, 10)
+shape = SubResource("CircleShape2D_r5e18")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.71267, 0, 0.00922512, 1)
+scale = Vector2(10, 10)
+texture = ExtResource("1_qb5qr")

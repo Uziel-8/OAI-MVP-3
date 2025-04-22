@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://b3coy2aljwci7"]
+
+[ext_resource type="Script" uid="uid://cajvlc7mq1rxs" path="res://Character/shuriken.gd" id="1_nks44"]
+[ext_resource type="Texture2D" uid="uid://cufv85280lwvj" path="res://Graphics/Weapons/Shuriken.png" id="1_xe8f1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_avtth"]
+radius = 5.0
+
+[node name="Shuriken" type="RigidBody2D"]
+collision_layer = 8
+collision_mask = 18
+script = ExtResource("1_nks44")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(10, 10)
+shape = SubResource("CircleShape2D_avtth")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(10, 10)
+texture = ExtResource("1_xe8f1")
+
+[node name="SelfDestructTimer" type="Timer" parent="."]
+process_callback = 0
+wait_time = 1.317
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

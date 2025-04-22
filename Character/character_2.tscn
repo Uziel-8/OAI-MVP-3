@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://dn5puvx3sd31b"]
+
+[ext_resource type="Texture2D" uid="uid://ybibhgptwnjo" path="res://Graphics/Character-Equipment/Soldier Head.png" id="1_alian"]
+[ext_resource type="Texture2D" uid="uid://dxglqgqaugtf1" path="res://Graphics/Character-Equipment/Soldier Body.png" id="2_05rtj"]
+[ext_resource type="Texture2D" uid="uid://bpt7xbyycxrgx" path="res://Graphics/Character-Equipment/Soldier Arms.png" id="3_krlwh"]
+[ext_resource type="Texture2D" uid="uid://dikosh4tl6is4" path="res://Graphics/Character-Equipment/Soldier Legs.png" id="4_vrtb1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j2bs0"]
+size = Vector2(9, 15)
+
+[node name="Player2" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(10.5, 10.5)
+shape = SubResource("RectangleShape2D_j2bs0")
+
+[node name="Head" type="Sprite2D" parent="."]
+position = Vector2(8, 6)
+texture = ExtResource("1_alian")
+
+[node name="Body" type="Sprite2D" parent="."]
+position = Vector2(9, 14)
+texture = ExtResource("2_05rtj")
+
+[node name="Arms" type="Sprite2D" parent="."]
+position = Vector2(10, 15)
+texture = ExtResource("3_krlwh")
+
+[node name="Legs" type="Sprite2D" parent="."]
+position = Vector2(10, 17)
+texture = ExtResource("4_vrtb1")

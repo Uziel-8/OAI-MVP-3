@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://db7r1qdgepli1"]
+
+[ext_resource type="Script" uid="uid://c54r25t51d3u6" path="res://ao_l_test.gd" id="1_fm54w"]
+
+[node name="AoL Test" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fm54w")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.0
+offset_top = -15.5
+offset_right = 49.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Katana Info"
+
+[node name="Label" type="Label" parent="Button"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.22
+anchor_right = 0.22
+offset_left = 82.44
+offset_top = -21.5
+offset_right = 258.44
+offset_bottom = 78.5
+text = "Test paragraph about the Katana and it's potential use cases."
+autowrap_mode = 2
+
+[connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
+[connection signal="mouse_exited" from="Button" to="." method="_on_button_mouse_exited"]

@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3 uid="uid://dms6wp1gsqbhu"]
+
+[ext_resource type="Script" uid="uid://c0c4lqmtgekmv" path="res://UI/selection_menu.gd" id="1_7fk42"]
+[ext_resource type="Texture2D" uid="uid://jgs2vl3ewkpi" path="res://Graphics/UI/Blue Button.png" id="2_i2tbd"]
+[ext_resource type="Texture2D" uid="uid://clr12f42j6exr" path="res://Graphics/UI/Gold Button.png" id="2_jhmo4"]
+[ext_resource type="Texture2D" uid="uid://cqhnfmm4i3o6v" path="res://Graphics/UI/Red Button.png" id="3_y1qpj"]
+
+[node name="SelectionMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_7fk42")
+
+[node name="Gold" type="Button" parent="."]
+layout_mode = 0
+offset_right = 200.0
+offset_bottom = 100.0
+text = "Gold"
+icon = ExtResource("2_jhmo4")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Health" type="Button" parent="."]
+layout_mode = 0
+offset_left = 200.0
+offset_right = 400.0
+offset_bottom = 100.0
+text = "Health"
+icon = ExtResource("3_y1qpj")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shuriken" type="Button" parent="."]
+layout_mode = 0
+offset_left = 400.0
+offset_right = 600.0
+offset_bottom = 100.0
+text = "Shurikens"
+icon = ExtResource("2_i2tbd")
+clip_text = true
+icon_alignment = 1
+expand_icon = true

@@ -1,0 +1,16 @@
+# Godot 4+ specific ignores
+.godot/
+# Godot specific files
+.import/
+.export/
+*.import
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.tmp
+*.backup
+*.godot/tmp
+*.godot/assetlib/tmp

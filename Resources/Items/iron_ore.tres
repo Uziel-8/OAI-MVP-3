@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://cvyg380tihpeb"]
+
+[ext_resource type="Script" uid="uid://d4jbb61t5upd3" path="res://Resources/Items/item.gd" id="1_ihv7k"]
+[ext_resource type="Texture2D" uid="uid://bfxcujf6q4vmv" path="res://Graphics/Items/Crafting Materials/Iron Ore.png" id="2_516lf"]
+
+[resource]
+script = ExtResource("1_ihv7k")
+texture = ExtResource("2_516lf")
+item_name = "Iron Ore"
+metadata/_custom_type_script = "uid://d4jbb61t5upd3"

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://6x75s0oslhuf"]
+
+[ext_resource type="Script" uid="uid://bu75wyt12ypxb" path="res://button.gd" id="2_3tdhx"]
+
+[node name="Button" type="Button"]
+offset_left = 1076.0
+offset_top = 1082.0
+offset_right = 1231.0
+offset_bottom = 1238.0
+text = "HELLO"
+flat = true
+expand_icon = true
+script = ExtResource("2_3tdhx")

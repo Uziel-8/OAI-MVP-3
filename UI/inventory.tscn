@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://m1tsi03dyi4n"]
+
+[ext_resource type="Texture2D" uid="uid://bnhjv8nq2fygd" path="res://Graphics/UI/Gold Button.png" id="1_qjobe"]
+[ext_resource type="Texture2D" uid="uid://bvs0h7hi2wjd2" path="res://Graphics/UI/Red Button.png" id="2_6dd4w"]
+[ext_resource type="Texture2D" uid="uid://fkkcgvwynoc3" path="res://Graphics/UI/Blue Button.png" id="3_qumus"]
+
+[node name="Inventory" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 2
+columns = 3
+
+[node name="ItemList" type="ItemList" parent="."]
+layout_mode = 2
+item_count = 3
+item_0/text = "Gold"
+item_0/icon = ExtResource("1_qjobe")
+item_1/text = "Health Potion"
+item_1/icon = ExtResource("2_6dd4w")
+item_2/text = "Mana Potion"
+item_2/icon = ExtResource("3_qumus")

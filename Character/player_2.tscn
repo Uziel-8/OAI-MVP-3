@@ -1,0 +1,37 @@
+[gd_scene load_steps=8 format=3 uid="uid://4pwlmhcj7wfo"]
+
+[ext_resource type="Script" uid="uid://x3e8sm3umcep" path="res://Character/player_2.gd" id="1_fykds"]
+[ext_resource type="Texture2D" uid="uid://ybibhgptwnjo" path="res://Graphics/Character-Equipment/Soldier Head.png" id="1_ioa4b"]
+[ext_resource type="Texture2D" uid="uid://dxglqgqaugtf1" path="res://Graphics/Character-Equipment/Soldier Body.png" id="2_fykds"]
+[ext_resource type="PackedScene" uid="uid://npkf1mlk60qn" path="res://Character/Equipment/helmet.tscn" id="2_nx22q"]
+[ext_resource type="Texture2D" uid="uid://bpt7xbyycxrgx" path="res://Graphics/Character-Equipment/Soldier Arms.png" id="3_nx22q"]
+[ext_resource type="Texture2D" uid="uid://dikosh4tl6is4" path="res://Graphics/Character-Equipment/Soldier Legs.png" id="4_d3cof"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j2bs0"]
+size = Vector2(9, 15)
+
+[node name="Player2" type="CharacterBody2D"]
+script = ExtResource("1_fykds")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(10.5, 10.5)
+shape = SubResource("RectangleShape2D_j2bs0")
+
+[node name="Helmet" parent="." instance=ExtResource("2_nx22q")]
+position = Vector2(18, 3)
+
+[node name="Head" type="Sprite2D" parent="."]
+position = Vector2(8, 6)
+texture = ExtResource("1_ioa4b")
+
+[node name="Body" type="Sprite2D" parent="."]
+position = Vector2(9, 14)
+texture = ExtResource("2_fykds")
+
+[node name="Arms" type="Sprite2D" parent="."]
+position = Vector2(10, 15)
+texture = ExtResource("3_nx22q")
+
+[node name="Legs" type="Sprite2D" parent="."]
+position = Vector2(10, 17)
+texture = ExtResource("4_d3cof")
