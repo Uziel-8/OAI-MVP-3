@@ -1,11 +1,11 @@
 [gd_scene load_steps=54 format=3 uid="uid://ds6h1eai0nnls"]
 
-[ext_resource type="Texture2D" uid="uid://ct2wl01sl8ovi" path="res://Graphics/Characters/Wanderer Magican/Idle.png" id="1_82fkq"]
+[ext_resource type="Texture2D" uid="uid://bkfs7j1tkab4o" path="res://Graphics/Characters/Wanderer Magican/Idle.png" id="1_82fkq"]
 [ext_resource type="Script" uid="uid://f2hvni80786o" path="res://Character/player_3.gd" id="1_gfw5s"]
-[ext_resource type="Texture2D" uid="uid://nprauynclrye" path="res://Graphics/Characters/Wanderer Magican/Attack_2.png" id="2_udbyq"]
-[ext_resource type="Texture2D" uid="uid://clw6xhv4q2um2" path="res://Graphics/Characters/Wanderer Magican/Jump.png" id="3_4lmog"]
-[ext_resource type="Texture2D" uid="uid://cbe0sx2stuusd" path="res://Graphics/Characters/Wanderer Magican/Run.png" id="4_udbyq"]
-[ext_resource type="Texture2D" uid="uid://d0hy03l3s1ly8" path="res://Graphics/Characters/Wanderer Magican/Walk.png" id="5_avgrm"]
+[ext_resource type="Texture2D" uid="uid://673rxqrq2hnx" path="res://Graphics/Characters/Wanderer Magican/Attack_2.png" id="2_udbyq"]
+[ext_resource type="Texture2D" uid="uid://cupkye10abu3v" path="res://Graphics/Characters/Wanderer Magican/Jump.png" id="3_4lmog"]
+[ext_resource type="Texture2D" uid="uid://bjg2bnk2jpi32" path="res://Graphics/Characters/Wanderer Magican/Run.png" id="4_udbyq"]
+[ext_resource type="Texture2D" uid="uid://dwxlfpgya2ju4" path="res://Graphics/Characters/Wanderer Magican/Walk.png" id="5_avgrm"]
 [ext_resource type="Script" uid="uid://20588yednn41" path="res://Scripts/state_machine.gd" id="7_avgrm"]
 [ext_resource type="Script" uid="uid://dwrc3rvnub7jm" path="res://Scripts/PlayerRunState.gd" id="8_l3yf8"]
 
@@ -341,7 +341,7 @@ shape = SubResource("RectangleShape2D_82fkq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_nsm0i")
-animation = &"Attack"
+animation = &"Idle"
 autoplay = "Idle"
 
 [node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]

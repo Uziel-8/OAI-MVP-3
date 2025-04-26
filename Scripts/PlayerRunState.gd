@@ -11,3 +11,6 @@ func Enter():
 
 func Physics_Update(delta):
 	var direction 
+
+func Update(delta):
+	pass

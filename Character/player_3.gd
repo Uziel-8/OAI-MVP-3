@@ -1,15 +1,14 @@
 extends CharacterBody2D
 
-const SPEED = 120.0
+const SPEED = 300.0
 var health = Globals.health_amount
-const INITIAL_JUMP_VELOCITY = -80.0  # Initial jump power
-const JUMP_HOLD_FORCE = -60.0        # Continued upward force when holding jump
+const INITIAL_JUMP_VELOCITY = -200.0  # Initial jump power
+const JUMP_HOLD_FORCE = -120.0        # Continued upward force when holding jump
 const MAX_JUMP_TIME = 0.3           # Maximum time the jump can be held
 
 var jump_time = 0.0                   # Tracks how long jump is held
 
 @onready var animated_sprite_2d = $AnimatedSprite2D
-@onready var timer = $Timer
 @onready var inventory: Inventory = Inventory.new()
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
