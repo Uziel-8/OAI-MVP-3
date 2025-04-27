@@ -1,5 +1,5 @@
 extends Node2D
-var speed = 500
+var speed = 100
 var direction = 1
 var health: int = 100
 var damage: int = 25
